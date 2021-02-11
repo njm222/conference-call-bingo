@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 
 interface BingoCountInterface {
   count: number;
@@ -13,4 +13,4 @@ const BingoCount = (props: BingoCountInterface) => {
   );
 };
 
-export default BingoCount;
+export default memo(BingoCount);

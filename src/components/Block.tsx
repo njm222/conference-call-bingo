@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 import styled from 'styled-components';
 
 interface BlockPropsInterface {
@@ -44,4 +44,4 @@ const Block = (props: BlockPropsInterface) => {
   );
 };
 
-export default Block;
+export default memo(Block);

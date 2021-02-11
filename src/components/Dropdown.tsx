@@ -1,4 +1,4 @@
-import React, { BaseSyntheticEvent, useState } from 'react';
+import React, { BaseSyntheticEvent, useState, memo } from 'react';
 import { FormControl, InputLabel, MenuItem, Select } from '@material-ui/core';
 
 interface GridOptionsInterface {
@@ -45,4 +45,4 @@ const Dropdown = (props: MenuInterface) => {
   );
 };
 
-export default Dropdown;
+export default memo(Dropdown);
