@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Bingo Rules
+
+- A player wins by completing a row, column, or diagonal.
+- There's a free slot (always on) in the middle
+- You can have multiple bingos
+
 ## The challenge
 
 - Build a fully working Bingo App using ReactJS **respecting the 3 basic rules explained above**.
